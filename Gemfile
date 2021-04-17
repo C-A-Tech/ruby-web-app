@@ -6,3 +6,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'sinatra', '~> 2.1'
 gem 'sinatra-contrib', '~> 2.1'
+gem 'capybara', '~> 3.35', '>= 3.35.3'
+gem 'selenium-webdriver', '~> 3.142', '>= 3.142.7'
